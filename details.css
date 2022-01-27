@@ -1,0 +1,78 @@
+h3{
+    margin-left:10%;
+}
+.order{
+    width:80%;
+    height:400px;
+    /* border:2px solid red; */
+    margin-left:10%;
+    margin-top:2%;
+    margin-bottom:3%;
+    background-color:white;
+    box-shadow: 0 3px 6px 0 rgba(19, 18, 18, 0.16);
+
+}
+
+.box_card{
+    width:50%;
+    height:400px;
+    float:left;
+
+}
+.box_card2{
+    width:48%;
+    float:right;
+    height:400px; 
+}
+
+p{
+    font-size:20px;
+    font-family:sans-serief;
+    text-transform:capitalize;
+}
+.dinn{
+    height:400px;
+}
+.small{
+    font-size:15px;
+}
+.ret{
+    background-color:green;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+
+}
+button{
+    padding:2% 8%;
+    /* margin-left:2%; */
+    outline:none;
+    border:none;
+    background-color:orange;
+    font-size:20px;
+
+}
+.avail{
+    color:green;
+    text-transform:uppercase;
+}
+.btn1{
+    background-color:yellowgreen;
+}
+@media only screen and (max-width: 850px){
+    .box_card{
+        width:100%;
+    }
+    .box_card2{
+        width:100%;
+        padding-top:3%;
+        box-shadow: 0 3px 6px 0 rgba(19, 18, 18, 0.16);
+    }
+    .shit{
+        margin-left:3%;
+    }
+   .wlcm{
+       display:none;
+   }
+}
+

@@ -1,0 +1,161 @@
+{
+      "city":[
+          {
+              "_id":0,
+              "city_name":"Select City",
+              "city":0
+          },
+          {
+              "_id":1,
+              "city_name":"Odisha",
+              "city":1,
+              "country_name":"India"
+          },
+          {
+              "_id":2,
+              "city_name":"Delhi",
+              "city":2,
+              "country_name":"India"
+          },
+          {
+            "_id":3,
+            "city_name":"Hyderabad",
+            "city":3,
+            "country_name":"India"
+          },
+          {
+              "_id":4,
+              "city_name":"Mumbai",
+              "city":4,
+              "country_name":"India"
+          },
+          {
+              "_id":5,
+              "city_name":"Bangalore",
+              "city":5,
+              "country_name":"India"
+          },
+          {
+              "_id":6,
+              "city_name":"MP",
+              "city":6,
+              "country_name":"India"
+          },
+          {
+              "_id":7,
+              "city_name":"Goa",
+              "city":7,
+              "country_name":"India"
+          },
+          {
+              "_id":8,
+              "city_name":"Kerala",
+              "city":8,
+              "country_name":"India"
+          }
+      ],
+
+    "category":[
+        {
+            "id":0,
+            "name":" ",
+            "city":0
+        },
+        {
+            "id":1,
+            "name":"ganguram",
+            "city":1
+        
+        },
+        {
+            "id":2,
+            "name":"shyamasham",  
+            "city":1
+        },
+        {
+            "id":3,
+            "name":"rangarao",
+            "city":1
+        },
+        {
+            "id":4,
+            "name":"xyz",
+            "city":1
+        },
+        {
+            "id":5,
+            "name":"Chef in the hat",
+            "city":2
+        },
+        {
+            "id":6,
+            "name":"Thai me up",
+            "city":2
+        },
+        {
+            "id":7,
+            "name":"Yummy in my tummy",
+            "city":2
+        },
+        {
+            "id":8,
+            "name":"Harekrishna Restaurant",
+            "city":3
+        },
+        {
+            "id":9,
+            "name":"Spin",
+            "city":4
+        },
+        {
+            "id":9,
+            "name":"Terraces",
+            "city":4
+        },
+        {
+            "id":9,
+            "name":"Single Shot",
+            "city":4
+        }, 
+        {
+            "id":9,
+            "name":"Moda",
+            "city":5
+        }, 
+        {
+            "id":9,
+            "name":"Sweet Affairs",
+            "city":5
+        },
+        {
+            "id":9,
+            "name":"Tasty treets",
+            "city":6
+        },
+        {
+            "id":9,
+            "name":"Island Prime",
+            "city":6
+        },
+        {
+            "id":9,
+            "name":"Urban Tea House",
+            "city":7
+        },
+        {
+            "id":9,
+            "name":"The Rosebud",
+            "city":7
+        },
+        {
+            "id":9,
+            "name":"Opera House",
+            "city":8
+        }
+
+    ]
+}
+
+
+
+    

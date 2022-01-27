@@ -1,0 +1,220 @@
+<html>
+  <head>
+    <title>Xomato</title>
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="signup.html" />
+    <script src="kumar.js"></script>
+  </head>
+
+  <body>
+    <div class="kumar">
+      <div class="navbar">
+        <div class="first_tile">
+          <a href="index.html" class="logo">Zomato</a>
+        </div>
+        <div class="second_tile">
+          <a href="#"><span>Login</span></a>
+          <a href="signup.html"><span>Signup</span></a>
+          <button class="locations" onClick="geolocation()">
+            Get Location
+        </button>
+        <p id="out"></p>
+        <div id="icon"></div>
+        <p id="address"></p>
+        </div>
+      </div>
+    </div>
+    <div class="picture">
+      <div id="coupon">
+        <div class="couponads">
+          <button id="crs" onclick="cross()">&times;</button>
+          <a class="lkn" href="https://www.amazon.in/amazonprime"
+            ><img class="link" src="amazonads2.jpg"
+          /></a>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="slogo"><span class="zlogo">E!</span></div>
+        <div class="food">Discover the Best food in India</div>
+
+        <div class="search">
+            <div class="searchby">
+          <select id="city" class="searchcity" onChange="getHotel()">
+       
+          </select>
+    
+          <select id="hotels" class="searchhotel">
+
+          </select>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="quicksearch">
+      <h2 class="comp">Quick Search</h2>
+      <h4 class="comp1">Discover Restaurant by Meal</h4>
+      <div class="tilecomponent">
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"><img src="indian.jpg" /></a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Breakfast</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="delicious.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Delicious</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="dinner1.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Dinner</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="veg3.png" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Veg</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="nonveg2.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Non-Veg</a></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="cake.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Cake</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="dinner1.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Dinner</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="delicious.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Delicious</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="salad.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Salad</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="meal1.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Dinner</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="meal2.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Indian</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="meal4.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Dinner</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="southindian.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">South Indian</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="jeerarice.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Indian</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="family.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Family</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="kfc.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Kfc</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="jeerarice.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">jeerarice</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <a href="Home.html"> <img src="nonvegthali.jpg" /> </a>
+          </div>
+          <div class="para">
+            <p><a href="Home.html" class="color">Nonveg Thali</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">
+        <p>copyright © Asish Kumar Behera</p>
+      </div>
+    </footer>
+    <script>
+      window.onload = ads();
+      window.onload = getCity();
+    </script>
+  </body>
+</html>

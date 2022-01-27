@@ -1,0 +1,292 @@
+body {
+  margin: auto;
+}
+.locations{
+  background-color:white;
+  color:black;
+  outline:none;
+  border:none;
+  margin-left:2%;
+  padding:2px;
+}
+.kumar {
+  background-color: red;
+  height: 60px;
+  color: white;
+}
+.navbar {
+  background-color: red;
+  width: 100%;
+  height:60px;
+  
+ 
+
+}
+.first_tile {
+  color: white;
+  margin-left: 12%;
+  padding-top: 1%;
+  float: left;
+  width: 60%;
+}
+.second_tile {
+  float: none;
+  padding-top: 1.5%;
+}
+span {
+  padding-left: 2%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.logo {
+  font-size: 25px;
+}
+.picture {
+  background: url("pic5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.slogo {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.zlogo {
+  font-size: 30px;
+  background-color: red;
+  outline:none;
+  border:none;
+  color: white;
+  padding: 1% 1.2%;
+  border-radius: 50%;
+  font-family: sans-serif;
+  animation-name: asish;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+#coupon {
+  height: 280px;
+  width: 35%;
+  margin-left: 35%;
+  position: absolute;
+  top: 9%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius:5% 0 5% 5%;
+ 
+}
+.couponads {
+  width:100%;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  border-radius:5% 5% 5% 5%;
+  transition-delay:10s;
+  animation:behera;
+  animation-duration: 2s;
+
+}
+.lkn{
+  width:100%;
+  height:400px;
+}
+
+.link {
+  width:100%;
+  height: 400px;
+  border-radius:5% 5% 5% 5%;
+}
+
+#crs {
+  position: absolute;
+  right:0;
+  cursor: pointer;
+  z-index: 2;
+  background-color:white;
+  color:red;
+  font-size:20px;
+  border:none;
+  outline:none;
+  padding:5px 10px;
+  border-radius: 50%;
+}
+.food {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 1.5%;
+}
+.search {
+  margin-left: 20%;
+  margin-right:20%;
+  padding-top: 1.5%;
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.searchby{
+  width:100%;
+  display:flex;
+  justify-content: center;
+ 
+}
+#city{
+  width:30%;
+  border:none;
+  outline:none;
+  line-height: 5;
+  padding:2px 0px;
+  border-right:2px solid black;
+  padding:2px;
+}
+#hotels{
+  width:30%;
+  outline:none;
+  border:none;
+  text-transform: capitalize;
+}
+.location {
+  width: 30%;
+  outline: none;
+  border: none;
+  height: 30px;
+  text-transform: capitalize;
+  padding-left: 2%;
+}
+.searchfood {
+  height: 30px;
+  width: 30%;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  padding-left: 2%;
+}
+#quicksearch {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+.comp {
+  margin-left: 2%;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 0.2;
+}
+.comp1 {
+  margin-left: 2%;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+.tilecomponent {
+  width: 100%;
+  background-color: blue;
+  margin-top: 2%;
+}
+
+.card {
+  width: 30%;
+  height: 280px;
+  float: left;
+  margin-left: 2%;
+  background-color: #719ca3;
+  border-radius: 5px;
+  margin-top: 2%;
+  box-shadow: 2px 2px 2px black;
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  border-radius: 2%;
+  border-radius: 2%;
+  float: left;
+}
+img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /* border-radius: 5px; */
+}
+.para {
+  text-align: center;
+  float: none;
+  color: black;
+  font-size: 30px;
+  line-height: 3;
+}
+.color {
+  color: black;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #719ca3;
+  color: black;
+  float: right;
+  width: 100%;
+  height: 60px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+@keyframes asish {
+  0% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: -25%;
+  }
+  75% {
+    margin-left: 25%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+@keyframes behera{
+  0%{
+    width:0;
+    height:0;
+  }
+  50%{
+    height:50%;
+    height:50%;
+  }
+  100%{
+    width:100%;
+    height:100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .card {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(19, 18, 18, 0.16);
+    margin-top: 5%;
+  }
+}
+  @media only screen and (max-width: 1100px) {
+  /* .coupon{
+    display:none;
+  } */
+  .couponads{
+    display:none;
+  }
+}
+@media only screen and (max-height: 500px) {
+.couponads{
+  top:10%;
+}
+}
